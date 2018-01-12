@@ -1,6 +1,6 @@
 ---
 title: The A & R Wedding
-date: 2017-03-03 16:40:00 Z
+date: 2017-03-03 22:10:00 +05:30
 assets:
 - path: "/uploads/1-2.jpg"
   name: 1-2

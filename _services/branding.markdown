@@ -1,6 +1,6 @@
 ---
 title: Branding & Identity
-date: 2016-04-12 12:39:00 Z
+date: 2016-04-12 18:09:00 +05:30
 featured_image: "/uploads/571a27fc6aa0b957d80000f0.jpg"
 featured_color: green
 ---

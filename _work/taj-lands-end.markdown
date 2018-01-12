@@ -1,6 +1,6 @@
 ---
 title: Taj Lands End
-date: 2016-04-26 13:40:00 Z
+date: 2016-04-26 19:10:00 +05:30
 assets:
 - path: "/uploads/taj posters.jpg"
   name: taj posters

@@ -1,6 +1,6 @@
 ---
 title: Color Quarterly By Asian Paints
-date: 2016-04-27 18:37:00 Z
+date: 2016-04-28 00:07:00 +05:30
 assets:
 - path: "/uploads/portfolio-of-editorial1.jpg"
   name: portfolio-of-editorial1

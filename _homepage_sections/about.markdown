@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2016-04-02 17:23:00 Z
+date: 2016-04-02 22:53:00 +05:30
 heading background: "#fabaa6"
 paragraph background: "#bb4d52"
 heading image url: "/uploads/about.svg"

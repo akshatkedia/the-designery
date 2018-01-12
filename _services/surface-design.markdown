@@ -1,6 +1,6 @@
 ---
 title: Surface Design
-date: 2016-04-12 12:42:00 Z
+date: 2016-04-12 18:12:00 +05:30
 featured_image: "/uploads/571a27f86aa0b957d400012a.jpg"
 featured_color: green
 ---

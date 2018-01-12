@@ -1,6 +1,6 @@
 ---
 title: Bodoni Vintage
-date: 2016-04-27 18:42:00 Z
+date: 2016-04-28 00:12:00 +05:30
 assets:
 - path: "/uploads/Bodoni_Vintage_1.jpg"
   name: Bodoni_Vintage_1

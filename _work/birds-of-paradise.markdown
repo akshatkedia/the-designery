@@ -1,6 +1,6 @@
 ---
 title: Birds Of Paradise
-date: 2016-04-27 18:43:00 Z
+date: 2016-04-28 00:13:00 +05:30
 assets:
 - path: "/uploads/tbfp_1.jpg"
   name: tbfp_1

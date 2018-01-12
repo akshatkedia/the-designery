@@ -1,6 +1,6 @@
 ---
 title: Services
-date: 2016-04-02 19:03:00 Z
+date: 2016-04-03 00:33:00 +05:30
 heading background: "#b3e0de"
 paragraph background: "#d7736d"
 heading image url: "/uploads/services.svg"

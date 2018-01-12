@@ -1,6 +1,6 @@
 ---
 title: Bel-paese
-date: 2016-04-27 18:44:00 Z
+date: 2016-04-28 00:14:00 +05:30
 assets:
 - path: "/uploads/portfolio-of-illustration3.jpg"
   name: portfolio-of-illustration3

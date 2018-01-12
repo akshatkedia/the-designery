@@ -1,6 +1,6 @@
 ---
 title: Dusk
-date: 2016-04-27 18:43:00 Z
+date: 2016-04-28 00:13:00 +05:30
 assets:
 - path: "/uploads/dusk_1.jpg"
   name: dusk_1

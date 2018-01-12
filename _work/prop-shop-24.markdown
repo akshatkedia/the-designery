@@ -1,6 +1,6 @@
 ---
 title: Prop Shop 24
-date: 2016-05-26 08:07:00 Z
+date: 2016-05-26 13:37:00 +05:30
 assets:
 - path: "/uploads/11-1.jpg"
   name: 11-1

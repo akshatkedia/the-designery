@@ -1,42 +1,52 @@
 ---
 title: The Designery by Nikita Mehta Shah
-url: http://www.thedesignery.in
 timezone: Mumbai
-permalink: pretty
-description: The Designery is a multidisciplinary design house that specializes in
-  brand strategy, creative solutions and communication design.
-author: Nikita Mehta Shah
-twitter: NikitaMehtaShah
-image: "/uploads/favicons-04.png"
 collections:
+  homepage_sections:
+    title: Homepage Sections
+    output: false
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: false
   uploads:
     title: Uploads
     output: true
   work_branding:
+    title: Work Branding
     output: true
     permalink: "/work/branding/:path"
   work_editorial:
+    title: Work Editorial
     output: true
     permalink: "/work/editorial/:path"
   work_illustration:
+    title: Work Illustration
     output: true
     permalink: "/work/illustration/:path"
-  work_surface-prints:
-    output: true
-    permalink: "/work/surface-prints/:path"
   work_products:
+    title: Work Products
     output: true
     permalink: "/work/products/:path"
-  services:
-    output: false
-  homepage_sections:
-    output: false
+  work_surface-prints:
+    title: Work Surface Prints
+    output: true
+    permalink: "/work/surface-prints/:path"
 defaults:
 - scope:
     path: ''
     type: posts
   values:
     permalink: "/posts/:title/"
+url: http://www.thedesignery.in
+permalink: pretty
+description: The Designery is a multidisciplinary design house that specializes in
+  brand strategy, creative solutions and communication design.
+author: Nikita Mehta Shah
+twitter: NikitaMehtaShah
+image: "/uploads/favicons-04.png"
 exclude:
 - Gruntfile.js
 - Gemfile

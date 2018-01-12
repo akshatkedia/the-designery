@@ -1,6 +1,6 @@
 ---
 title: Aashna Unadkat
-date: 2016-04-27 18:40:00 Z
+date: 2016-04-28 00:10:00 +05:30
 assets:
 - path: "/uploads/portfolio-of-editorial12.jpg"
   name: portfolio-of-editorial12

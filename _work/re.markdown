@@ -1,6 +1,6 @@
 ---
 title: Ré by JIVA
-date: 2016-05-02 08:30:00 Z
+date: 2016-05-02 14:00:00 +05:30
 assets:
 - path: "/uploads/6.jpg"
   name: '6'

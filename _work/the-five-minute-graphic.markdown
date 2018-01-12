@@ -1,6 +1,6 @@
 ---
 title: The Five Minute Graphic
-date: 2017-03-03 16:46:00 Z
+date: 2017-03-03 22:16:00 +05:30
 assets:
 - path: "/uploads/1-5.jpg"
   name: 1-5

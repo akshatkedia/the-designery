@@ -1,6 +1,6 @@
 ---
 title: Light
-date: 2016-04-27 18:44:00 Z
+date: 2016-04-28 00:14:00 +05:30
 assets:
 - path: "/uploads/_EC_8948A.jpg"
   name: _EC_8948A

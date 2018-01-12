@@ -1,6 +1,6 @@
 ---
 title: Editorial Design
-date: 2016-04-12 12:40:00 Z
+date: 2016-04-12 18:10:00 +05:30
 featured_image: "/uploads/571e1e72957b8a543e000437.jpg"
 featured_color: green
 ---

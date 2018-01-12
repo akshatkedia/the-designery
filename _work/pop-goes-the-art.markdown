@@ -1,6 +1,6 @@
 ---
 title: Pop Goes the Art
-date: 2017-03-03 16:44:00 Z
+date: 2017-03-03 22:14:00 +05:30
 assets:
 - path: "/uploads/1-4.jpg"
   name: 1-4

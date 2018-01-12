@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2016-04-22 11:33:00 Z
+date: 2016-04-22 17:03:00 +05:30
 heading image url: "/uploads/contact.svg"
 heading background: "#3e3551"
 paragraph background: "#f9c0c5"
@@ -13,3 +13,4 @@ assets:
 - path: "/uploads/contact.svg"
   name: contact
 ---
+

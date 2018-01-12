@@ -1,6 +1,6 @@
 ---
 title: The Monsoon Club
-date: 2016-04-26 06:16:00 Z
+date: 2016-04-26 11:46:00 +05:30
 assets:
 - path: "/uploads/portfolio of branding-01.jpg"
   name: portfolio of branding-01

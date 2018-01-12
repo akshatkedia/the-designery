@@ -1,6 +1,6 @@
 ---
 title: Products
-date: 2016-04-12 12:42:00 Z
+date: 2016-04-12 18:12:00 +05:30
 featured_image: "/uploads/571a27f84fe77b6096000241.jpg"
 featured_color: blue
 ---
