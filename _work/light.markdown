@@ -1,6 +1,7 @@
 ---
 title: Light
 date: 2016-04-28 00:14:00 +05:30
+service: Products
 assets:
 - path: "/uploads/_EC_8948A.jpg"
   name: _EC_8948A
