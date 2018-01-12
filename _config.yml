@@ -14,26 +14,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-  work_branding:
-    title: Work Branding
+  work:
+    title: Work
     output: true
-    permalink: "/work/branding/:path"
-  work_editorial:
-    title: Work Editorial
-    output: true
-    permalink: "/work/editorial/:path"
-  work_illustration:
-    title: Work Illustration
-    output: true
-    permalink: "/work/illustration/:path"
-  work_products:
-    title: Work Products
-    output: true
-    permalink: "/work/products/:path"
-  work_surface-prints:
-    title: Work Surface Prints
-    output: true
-    permalink: "/work/surface-prints/:path"
+    permalink: "/work/:path"
 defaults:
 - scope:
     path: ''
