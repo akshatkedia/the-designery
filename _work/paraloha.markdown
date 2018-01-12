@@ -1,6 +1,7 @@
 ---
 title: Paraloha
 date: 2016-04-28 00:15:00 +05:30
+service: Illustration
 assets:
 - path: "/uploads/portfolio-of-illustration9.jpg"
   name: portfolio-of-illustration9
