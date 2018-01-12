@@ -5,9 +5,6 @@ collections:
   homepage_sections:
     title: Homepage Sections
     output: false
-  posts:
-    title: Posts
-    output: true
   services:
     title: Services
     output: false
@@ -21,9 +18,9 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: work
   values:
-    permalink: "/posts/:title/"
+    service:
 url: http://www.thedesignery.in
 permalink: pretty
 description: The Designery is a multidisciplinary design house that specializes in
