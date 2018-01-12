@@ -1,6 +1,7 @@
 ---
 title: Birch
 date: 2017-03-03 22:12:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/1-3.jpg"
   name: 1-3
