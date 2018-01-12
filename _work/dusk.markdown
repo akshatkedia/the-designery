@@ -1,6 +1,7 @@
 ---
 title: Dusk
 date: 2016-04-28 00:13:00 +05:30
+service: Surface Design
 assets:
 - path: "/uploads/dusk_1.jpg"
   name: dusk_1
