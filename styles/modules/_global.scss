@@ -1,0 +1,30 @@
+// Global
+
+html,
+body {
+    height: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.collapse {
+    display: none;
+
+    &.in {
+        display: block;
+    }
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    transition-duration: .35s;
+    transition-property: height, visibility;
+    transition-timing-function: ease;
+}

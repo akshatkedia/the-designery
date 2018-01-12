@@ -1,0 +1,170 @@
+// Contact Section
+
+.td-home-contact-body {
+    @include centerer(true, true);
+    display: flex;
+    font-weight: 100;
+    justify-content: space-between;
+    width: 80%;
+
+    @include media(max-width $tablet-large orientation landscape) {
+        width: 90%;
+    }
+
+    @include media(min-width $tablet-large max-width $screen-small orientation landscape) {
+        width: 90%;
+    }
+
+    h2 {
+        color: $contact-heading-background-color;
+        font-size: 2.4vmin;
+        font-weight: 500;
+        margin-bottom: modular-scale(-2);
+        text-transform: uppercase;
+
+        @include media($screen-x-large) {
+            font-size: 1.8vmin;
+        }
+    }
+
+    a,
+    ::placeholder {
+        color: $contact-link-color;
+    }
+
+    ::placeholder {
+        font-size: 2.2vmin;
+        font-weight: 100;
+
+        @include media(max-width $tablet-large - em(1) orientation landscape) {
+            font-size: 1.2vmin;
+        }
+
+        @include media($screen-x-large) {
+            font-size: 1.4vmin;
+        }
+    }
+}
+
+.td-contact-form,
+.td-contact-details,
+.td-contact-social {
+    text-align: left;
+}
+
+.td-contact-form {
+    @include media(max-width $tablet-large - em(1) orientation landscape) {
+        width: 30%;
+    }
+
+    p {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    input[type="submit"] {
+        background: transparent;
+        border-color: $contact-heading-background-color;
+        border-radius: 0;
+        border-width: thin;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        color: $contact-link-color;
+    }
+
+    .td-button-holder {
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        @include padding(modular-scale(-3) null);
+        border: 1px solid $contact-heading-background-color;
+        color: $contact-link-color;
+        font-size: 2.4vmin;
+        font-weight: 500;
+
+        @include media($screen-x-large) {
+            font-size: 1.8vmin;
+        }
+    }
+
+    .alert {
+        color: $contact-link-color;
+        margin-top: modular-scale(-2);
+        text-align: center;
+    }
+}
+
+.td-contact-details {
+    section {
+        margin-bottom: modular-scale(1);
+
+        a {
+            display: block;
+
+            @include media(max-width $tablet-large - em(1) orientation landscape) {
+                font-size: 3vmin;
+                font-weight: 500;
+            }
+
+            @include media($screen-x-large) {
+                font-size: 2vmin;
+            }
+        }
+
+        a[href*="mailto"] {
+            @include media(max-width $tablet-large orientation landscape) {
+                font-size: 3.2vmin;
+            }
+        }
+    }
+}
+
+.td-contact-social {
+    li {
+        display: inline-block;
+        height: 7vmin;
+        margin-right: modular-scale(0);
+        width: 7vmin;
+
+        @include media(max-width $tablet-large - em(1) orientation landscape) {
+            margin-right: modular-scale(-3);
+        }
+
+        @include media(min-width $tablet-large max-width $screen-small orientation landscape) {
+            margin-right: modular-scale(0);
+        }
+    }
+
+    svg {
+        height: 100%;
+        width: 5vmin;
+
+        @include media(min-width $tablet-large max-width $screen-large orientation landscape) {
+            width: 4vmin;
+        }
+
+        path {
+            fill: none;
+
+            @include media(max-width $screen-small orientation landscape) {
+                fill: $contact-link-color;
+            }
+        }
+
+        &.td-social-twitter {
+            position: relative;
+            width: 6vmin;
+
+            @include media(min-width $tablet-large max-width $screen-large orientation landscape) {
+                width: 4.5vmin;
+            }
+        }
+    }
+}

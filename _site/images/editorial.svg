@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="/styles/css/svg.css" ?><svg
+   xmlns:i="&amp;#38;ns_ai;"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 119.84233 89.991327"
+   id="svg7548"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="editorial.svg">
+  <metadata
+     id="metadata7578">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7576" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="656"
+     id="namedview7574"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.6816169"
+     inkscape:cx="81.177782"
+     inkscape:cy="60.942919"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7548" />
+  <switch
+     transform="matrix(0.73820109,0,0,0.73820109,-192.32445,-174.14625)"
+     id="switch7550">
+    <foreignObject
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       id="foreignObject7552">
+      <i:pgfRef
+         xlink:href="#adobe_illustrator_pgf" />
+    </foreignObject>
+    <g
+       id="g7554">
+      <path
+         stroke-miterlimit="10"
+         d="m 265.08,356.8 75.303,0.026 V 236.908 H 265.08 z m 153.227,0 -75.304,0.026 V 236.908 h 75.304 z"
+         id="path7556"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10" />
+      <path
+         stroke-miterlimit="10"
+         d="m 261.524,241.86 h 3.555 v 109.985 h -3.556 z m 156.789,0 h 3.555 v 109.985 h -3.555 z"
+         id="path7558"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10" />
+      <g
+         stroke-miterlimit="10"
+         id="g7560"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10">
+        <path
+           d="m 274.044,271.943 h 56.22 v 56.223 h -56.22 z"
+           id="path7562"
+           inkscape:connector-curvature="0"
+           style="stroke-linecap:square;stroke-linejoin:bevel" />
+        <path
+           d="m 274.044,271.943 56.22,56.223 m 0,-56.223 -56.22,56.223"
+           id="path7564"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g7566"
+           style="stroke-linecap:square;stroke-linejoin:bevel">
+          <path
+             d="m 350.444,271.943 h 60.27 m -60.27,6.174 h 60.27 m -60.27,6.173 h 60.27 m -60.27,6.173 h 60.27 m -60.27,6.172 h 60.27"
+             id="path7568"
+             inkscape:connector-curvature="0" />
+          <g
+             id="g7570">
+            <path
+               d="m 350.444,303.475 h 60.27 m -60.27,6.172 h 60.27 m -60.27,6.173 h 60.27 m -60.27,6.172 h 60.27 m -60.27,6.174 h 60.27"
+               id="path7572"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </switch>
+</svg>

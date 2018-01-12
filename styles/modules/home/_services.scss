@@ -1,0 +1,116 @@
+// Services Section
+
+.td-home-services-icons {
+    height: 50%;
+    position: relative;
+
+    svg {
+        height: 12vmin;
+        padding: modular-scale(-3);
+        stroke: $white;
+
+        @include media(min-width $tablet-large max-width $screen-large orientation landscape) {
+            height: 10vmin;
+        }
+
+        @include media(min-width $screen-xx-large) {
+            height: 9vmin;
+        }
+
+        &:hover * {
+            stroke: $services-heading-background-color;
+        }
+
+        &:hover .td-with-fill {
+            fill: $services-heading-background-color;
+        }
+
+        &:hover + h2 {
+            color: $services-heading-background-color;
+        }
+
+        .td-with-fill {
+            fill: $white;
+        }
+    }
+
+    .active-item {
+        color: $services-heading-background-color;
+
+        svg {
+            stroke: $services-heading-background-color;
+        }
+
+        .td-with-fill {
+            fill: $services-heading-background-color;
+        }
+    }
+
+    h2 {
+        font-size: 2.2vmin;
+        font-weight: 500;
+        letter-spacing: $letter-spacing;
+        line-height: 1.5;
+        margin-bottom: 0;
+        text-transform: uppercase;
+
+        @include media($screen-x-large) {
+            font-size: 1.4vmin;
+        }
+
+        @include media(min-width $tablet-large max-width $screen-x-large orientation landscape) {
+            font-size: 1.8vmin;
+        }
+    }
+}
+
+.td-home-services-icons-holder {
+    @include centerer(true, true);
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+
+    @include media(max-width $screen-x-large orientation landscape) {
+        width: 80%;
+    }
+}
+
+.td-home-services-body {
+    height: 50%;
+    position: relative;
+
+    div {
+        @include centerer(false, true);
+        color: $services-heading-background-color;
+        display: none;
+
+        p {
+            @include span-columns(6);
+            @include shift(3);
+            font-weight: 100;
+            padding: 1rem;
+
+            @include media(max-width $tablet-large) {
+                font-weight: 500;
+            }
+
+            @include media(max-width $screen-large orientation landscape) {
+                @include span-columns(7);
+                @include shift(2.5);
+            }
+
+            @include media(min-width $screen-x-large) {
+                @include span-columns(6);
+                @include shift(3);
+            }
+
+            @include media(min-width $screen-xx-large) {
+                font-size: 1.5vmin;
+            }
+        }
+
+        .active-item {
+            display: block;
+        }
+    }
+}

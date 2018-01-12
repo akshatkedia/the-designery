@@ -1,0 +1,41 @@
+// About Section
+
+.about {
+    .td-home-section-body-content {
+        @include centerer(true, true);
+        text-align: center;
+        width: 100%;
+
+        p {
+            color: $about-heading-background-color;
+            margin-bottom: modular-scale(0);
+
+            @include media(min-width $tablet-large max-width $screen-small orientation landscape) {
+                @include span-columns(10);
+                @include shift(1);
+                font-size: .8rem;
+            }
+
+            @include media(min-width $screen-small + em(1) max-width $screen-large) {
+                @include span-columns(10);
+                @include shift(1);
+            }
+
+            @include media(min-width $screen-large) {
+                font-size: 2.2vmin;
+            }
+
+            @include media(min-width $screen-x-large) {
+                @include span-columns(10);
+                @include shift(1);
+                font-size: 1.7vmin;
+            }
+
+            @include media(min-width $screen-xx-large) {
+                @include span-columns(8.5);
+                @include shift(1.75);
+                font-size: 1.5vmin;
+            }
+        }
+    }
+}

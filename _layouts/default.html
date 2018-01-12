@@ -1,0 +1,23 @@
+{% include header.html %}
+
+    {% if page.url == '/' %}
+    <header class="home-header">
+        <h1 class="home-site-title"><a href="/">{{ site.title }}</a></h1>
+
+        <nav class="nav-menu" id="nav-scrollspy">
+            <ul class="nav">
+                {% for section in site.homepage_sections %}
+                <li>
+                    <a href="#{{ section.slug }}">{{ section.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+    {% endif %}
+
+    <section id="td-home-section-container">
+        {{ content }}
+    </section>
+
+{% include footer.html %}

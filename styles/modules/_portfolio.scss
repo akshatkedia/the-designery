@@ -1,0 +1,234 @@
+// Portfolio Header
+
+header {
+    @include padding($padding-header null null $padding-header);
+    display: inline-block;
+    height: 100%;
+    position: fixed;
+    width: 25%;
+
+    @include media(max-width $screen-small orientation landscape) {
+        @include padding(2.5vh null null 2.5vh);
+    }
+}
+
+.site-title {
+    @include hide-text;
+    background: url('/images/logo-gray.svg') no-repeat;
+    height: 15%;
+    width: auto;
+
+    @include media($screen-x-large) {
+        margin-bottom: 1.5em;
+    }
+
+    @include media(min-width $screen-xx-large) {
+        height: 12%;
+        margin-bottom: 3em;
+    }
+
+    a {
+        float: left;
+        height: 100%;
+        width: 25%;
+    }
+}
+
+.td-portfolio-nav {
+    font-weight: 100;
+    height: 70%;
+    overflow-y: auto;
+
+    a,
+    li {
+        color: $brand-gray-color;
+    }
+}
+
+.td-portfolio-nav-category {
+    cursor: pointer;
+    font-size: 2.4vmin;
+    font-weight: 500;
+
+    @include media($screen-x-large) {
+        font-size: 1.8vmin;
+    }
+
+    &::before {
+        bottom: .5vmin;
+        color: $brand-gray-color;
+        content: '\f04b';
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 1.6vmin;
+        margin-right: 1vmin;
+        position: relative;
+
+        @include media($screen-x-large) {
+            font-size: 1vmin;
+        }
+    }
+
+    &.rotate-triangle {
+        &::before {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.td-portfolio-nav-category-container {
+    margin-bottom: modular-scale(-2);
+
+    @include media(max-width $tablet-large orientation landscape) {
+        margin-bottom: modular-scale(-4);
+    }
+}
+
+.td-portfolio-nav-project {
+    line-height: 1.6;
+    margin-left: 2.6vmin;
+
+    @include media(max-width $tablet-large orientation landscape) {
+        line-height: .8;
+    }
+
+    @include media($screen-x-large) {
+        margin-left: 2vmin;
+    }
+
+    a {
+        font-size: 2vmin;
+        font-weight: 100;
+        text-transform: uppercase;
+
+        @include media($screen-x-large) {
+            font-size: 1.4vmin;
+        }
+
+        @include media(max-width $tablet-large orientation landscape) {
+            font-size: 2vmin;
+        }
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: $brand-red-color;
+        }
+    }
+
+    &.active a {
+        color: $brand-red-color;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: $brand-red-color;
+        }
+    }
+}
+
+.td-work-footer {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    justify-content: flex-end;
+    margin-bottom: $padding-header;
+    position: absolute;
+
+    @include media(max-width $screen-small orientation landscape) {
+        margin-bottom: 2.5vh;
+    }
+}
+
+.td-work-back {
+    @include media(max-width $tablet-large orientation landscape) {
+        line-height: 1;
+    }
+
+    a {
+        color: $brand-gray-color;
+        font-size: 2.2vmin;
+        text-decoration: underline;
+        text-transform: uppercase;
+
+        @include media($screen-x-large) {
+            font-size: 1.4vmin;
+        }
+    }
+}
+
+.td-work-social {
+    ul {
+        margin-left: em(1.6vmin);
+
+        @include media($screen-x-large) {
+            margin-left: em(1vmin);
+        }
+
+        @include media(max-width $tablet-large orientation landscape) {
+            line-height: 1;
+        }
+    }
+
+    li {
+        display: inline-block;
+        margin-right: modular-scale(0);
+
+        @include media(max-width $tablet-large orientation landscape) {
+            margin-right: modular-scale(-3);
+        }
+    }
+
+    svg {
+        height: 100%;
+        width: 3vmin;
+
+        &.td-work-social-twitter {
+            bottom: .15vmin;
+            position: relative;
+            width: 3.3vmin;
+        }
+    }
+}
+
+
+// Portfolio Content
+
+.td-portfolio-content {
+    display: inline-block;
+    float: right;
+    padding-right: $padding-header;
+    padding-top: $padding-header;
+    width: 75%;
+
+    @include media(max-width $screen-small orientation landscape) {
+        padding-right: 2.5vh;
+        padding-top: 2.5vh;
+    }
+
+    article {
+        padding-bottom: $padding-header;
+
+        @include media(max-width $screen-small orientation landscape) {
+            padding-bottom: 2.5vh;
+        }
+    }
+
+    p {
+        color: $brand-gray-color;
+        float: left;
+        font-size: 2.4vmin;
+        font-weight: 100;
+        margin-bottom: modular-scale(3);
+        width: 100%;
+
+        @include media(min-width $screen-x-large) {
+            font-size: 2vmin;
+        }
+
+        @include media(min-width $screen-xx-large) {
+            font-size: 2vmin;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+// Header
+.browserupgrade {
+    background: #ccc;
+    color: #000;
+    margin: .2em 0;
+    padding: .2em 0;
+}
+
+.rotate-to-landscape {
+    background-color: $white;
+    color: $brand-gray-color;
+    font-size: modular-scale(2);
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    .rotate-to-landscape-container {
+        @include centerer(true, true);
+        padding: modular-scale(0);
+        text-align: center;
+        width: 100%;
+
+        svg {
+            margin-bottom: modular-scale(0);
+        }
+    }
+}
+
+.home-header {
+    @include padding($padding-header $padding-header 0 $padding-header);
+    height: 25%;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    @include media(max-width $tablet-large orientation landscape) {
+        @include padding(2.5vh 2.5vh 0 2.5vh);
+    }
+
+    @include media(min-width $tablet-large max-width $screen-small orientation landscape) {
+        height: 20%;
+    }
+
+    .nav-menu {
+        @include margin(0 auto);
+        text-align: center;
+        width: 70%;
+    }
+}
+
+.nav-menu li {
+    @include padding(null modular-scale(0));
+    display: inline-block;
+
+    &.active a {
+        &[href="#about"] {
+            color: $about-paragraph-background-color;
+        }
+
+        &[href="#services"] {
+            color: $services-paragraph-background-color;
+        }
+
+        &[href="#work"] {
+            color: $work-paragraph-background-color;
+        }
+
+        &[href="#contact"] {
+            color: $contact-paragraph-background-color;
+        }
+    }
+
+    a {
+        color: $white;
+        font-size: 2vmin;
+        font-weight: 500;
+        letter-spacing: $letter-spacing;
+        padding: 0;
+        text-transform: uppercase;
+
+        @include media($screen-x-large) {
+            font-size: 1.4vmin;
+        }
+
+        @include media(min-width $tablet-large max-width $screen-small orientation landscape) {
+            font-size: 1.4vmin;
+        }
+
+        @include media(min-width $screen-small max-width ($screen-x-large - em(1)) orientation landscape) {
+            font-size: 1.8vmin;
+        }
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.home-site-title {
+    @include hide-text;
+    background: url('/images/logo.svg') no-repeat;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    height: 60%;
+    width: 10%;
+
+    a {
+        display: inline-block;
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+}
