@@ -13,7 +13,7 @@ collections:
     output: false
   slides:
     title: Slides
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
