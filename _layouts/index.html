@@ -36,7 +36,8 @@ layout: default
 
         {% elsif section.title == "Work" %}
         {% for service in site.services %}
-        <a class="td-home-work-body" style="background-image: url('{{ service['featured_image'] }}');" href="">
+        {% assign service_work = site.work | where_exp: "work", "work.service contains service.title" %}
+        <a class="td-home-work-body" style="background-image: url('{{ service['featured_image'] }}');" href="{{ service_work[0].url }}">
             <div>
                 <h2 class="work-{{ service['featured_color'] | downcase }}-color">{{service.title | upcase}}<h3>
             </div>
