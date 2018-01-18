@@ -1,6 +1,7 @@
 ---
 title: The Five Minute Graphic
 date: 2017-03-03 22:16:00 +05:30
+service: Illustration
 assets:
 - path: "/uploads/1-5.jpg"
   name: 1-5

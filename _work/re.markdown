@@ -1,29 +1,30 @@
 ---
 title: Ré by JIVA
 date: 2016-05-02 14:00:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/6.jpg"
-  name: '6'
+  name: 6
 - path: "/uploads/7.jpg"
-  name: '7'
+  name: 7
 - path: "/uploads/2.jpg"
-  name: '2'
+  name: 2
 - path: "/uploads/8.jpg"
-  name: '8'
+  name: 8
 - path: "/uploads/9.jpg"
-  name: '9'
+  name: 9
 - path: "/uploads/11.jpg"
-  name: '11'
+  name: 11
 - path: "/uploads/1.jpg"
-  name: '1'
+  name: 1
 - path: "/uploads/3.jpg"
-  name: '3'
+  name: 3
 - path: "/uploads/4.jpg"
-  name: '4'
+  name: 4
 - path: "/uploads/5.jpg"
-  name: '5'
+  name: 5
 - path: "/uploads/10.jpg"
-  name: '10'
+  name: 10
 - path: "/uploads/RE_FINAL-ROUTE_LINE-STROKE2.jpg"
   name: RE_FINAL-ROUTE_LINE-STROKE2
 ---

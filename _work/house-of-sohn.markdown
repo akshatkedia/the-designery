@@ -1,6 +1,7 @@
 ---
 title: House Of Sohn
 date: 2016-04-28 00:13:00 +05:30
+service: Surface Design
 assets:
 - path: "/uploads/print-developement-01.jpg"
   name: print-developement-01

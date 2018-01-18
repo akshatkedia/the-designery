@@ -1,6 +1,7 @@
 ---
 title: Tara Jewels
 date: 2016-04-26 11:48:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/portfolio of branding-10.jpg"
   name: portfolio of branding-10

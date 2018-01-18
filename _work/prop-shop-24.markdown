@@ -1,6 +1,7 @@
 ---
 title: Prop Shop 24
 date: 2016-05-26 13:37:00 +05:30
+service: Surface Design
 assets:
 - path: "/uploads/11-1.jpg"
   name: 11-1

@@ -1,6 +1,7 @@
 ---
 title: Love and Other Bugs
 date: 2016-04-26 11:49:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/portfolio of branding-13.jpg"
   name: portfolio of branding-13

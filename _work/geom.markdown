@@ -1,6 +1,7 @@
 ---
 title: Geom
 date: 2016-04-28 00:13:00 +05:30
+service: Surface Design
 assets:
 - path: "/uploads/GEOM_1.jpg"
   name: GEOM_1

@@ -1,6 +1,7 @@
 ---
 title: Godrej Garden City
 date: 2016-04-28 00:14:00 +05:30
+service: Illustration
 assets:
 - path: "/uploads/portfolio-of-illustration7.jpg"
   name: portfolio-of-illustration7

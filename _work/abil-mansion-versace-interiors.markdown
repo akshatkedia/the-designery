@@ -1,6 +1,7 @@
 ---
 title: ABIL Mansion & Versace Interiors
 date: 2016-04-28 00:09:00 +05:30
+service: Editorial Design
 assets:
 - path: "/uploads/PLIKE-RED- -BLACK-COVER_3D.jpg"
   name: PLIKE-RED- -BLACK-COVER_3D

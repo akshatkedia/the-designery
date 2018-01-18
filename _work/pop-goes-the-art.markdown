@@ -1,6 +1,7 @@
 ---
 title: Pop Goes the Art
 date: 2017-03-03 22:14:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/1-4.jpg"
   name: 1-4

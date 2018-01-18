@@ -1,6 +1,7 @@
 ---
 title: Birds Of Paradise
 date: 2016-04-28 00:13:00 +05:30
+service: Surface Design
 assets:
 - path: "/uploads/tbfp_1.jpg"
   name: tbfp_1

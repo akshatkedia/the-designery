@@ -1,6 +1,7 @@
 ---
 title: The Garden Wedding
 date: 2016-04-26 19:14:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/portfolio of branding5-02.jpg"
   name: portfolio of branding5-02

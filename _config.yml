@@ -24,7 +24,7 @@ defaults:
     type: work
   values:
     layout: work
-    service:
+    service: 
 url: http://www.thedesignery.in
 permalink: pretty
 description: The Designery is a multidisciplinary design house that specializes in

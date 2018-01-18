@@ -1,6 +1,7 @@
 ---
 title: One Roof
 date: 2016-04-26 11:47:00 +05:30
+service: Branding & Identity
 assets:
 - path: "/uploads/portfolio of branding-04.jpg"
   name: portfolio of branding-04
