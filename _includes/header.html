@@ -30,7 +30,7 @@
         {% include swiffy.html %}
     {% endif %}
 </head>
-<body {% if home? %}data-spy="scroll" data-target="#nav-scrollspy" class="home"{% endif %}>
+<body {% if page.url == '/' %}data-spy="scroll" data-target="#nav-scrollspy" class="home"{% endif %}>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
