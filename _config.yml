@@ -27,20 +27,16 @@ defaults:
     type: work
   values:
     layout: work
-<<<<<<< HEAD
     service:
     assets:
     - path:
       name:
-=======
-    service: 
->>>>>>> c101f5e8c48d50c7fa8b4a12e8162532f6f34571
 - scope:
     path: ''
     type: slides
   values:
-    image: 
-    work: 
+    image:
+    work:
 url: http://www.thedesignery.in
 permalink: pretty
 description: The Designery is a multidisciplinary design house that specializes in
