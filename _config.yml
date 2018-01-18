@@ -28,6 +28,9 @@ defaults:
   values:
     layout: work
     service:
+    assets:
+    - path:
+      name:
 - scope:
     path: ''
     type: slides
