@@ -1,0 +1,9 @@
+{% for link in site.social.links %}
+  {% if link contains "facebook.com" %}
+    {% assign facebook_url = link %}
+  {% elsif link contains "instagram.com" %}
+    {% assign instagram_url = link %}
+  {% elsif link contains "twitter.com" %}
+    {% assign twitter_url = link %}
+  {% endif %}
+{% endfor %}

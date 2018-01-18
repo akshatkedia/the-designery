@@ -24,7 +24,7 @@ defaults:
     type: work
   values:
     layout: work
-    service: 
+    service:
 url: http://www.thedesignery.in
 permalink: pretty
 description: The Designery is a multidisciplinary design house that specializes in
@@ -46,3 +46,9 @@ plugins:
 sass:
   sass_dir: styles/
   style: compressed
+social:
+  name: The Designery by Nikita Mehta Shah
+  links:
+    - https://www.facebook.com/thedesigneryindia/
+    - https://www.instagram.com/thedesignery_nikitamehtashah/
+    - https://twitter.com/NikitaMehtaShah
