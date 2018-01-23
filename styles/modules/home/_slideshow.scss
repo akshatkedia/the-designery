@@ -1,0 +1,29 @@
+.homepage-slide {
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: 80%;
+}
+
+.homepage-slide .content {
+  color: #59595b;
+  position: absolute;
+  left: 15vh;
+  bottom: 5vh;
+}
+
+.homepage-slide .content h2 {
+  margin-bottom: 0;
+}
+
+.homepage-slide .content p {
+  width: 60%;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+.homepage-slide .content img {
+  max-width: 100px;
+}

@@ -2,6 +2,22 @@
 layout: default
 ---
 
+{% if page['has slideshow'] %}
+<section class="homepage-slideshow">
+  {% for slide in site.slides %}
+    <article class="homepage-slide" style="background-image: url({{ slide.image }})">
+      <div class="content">
+        <h2>{{ slide.title }}</h2>
+        {{ slide.content }}
+        {% assign project = site.work | where: "title", slide.work %}
+        <a href="{{ project[0].url }}">
+          <img src="/images/view-project-button.svg" alt="View Project Link">
+        </a>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+{% else %}
 <article class="animation td-home-section">
     <div class="swiffy-wrap">
         <div id="swiffycontainer">
@@ -14,6 +30,7 @@ layout: default
     <div class="arrow bounce"></div>
     <div class="animation-replay"></div>
 </article>
+{% endif %}
 
 {% for section in site.homepage_sections %}
 <article class="td-home-section {{section.slug}}" id="{{section.slug}}">

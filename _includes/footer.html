@@ -12,6 +12,7 @@
 <script src="/js/vendor/jquery.easing.min.js"></script>
 <script src="/js/vendor/jquery.scrollsnap.js"></script>
 <script src="/js/vendor/jquery.scrollstop.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script>
     function isFacebookApp() {
         var ua = navigator.userAgent || navigator.vendor || window.opera;
@@ -25,6 +26,8 @@
 
     var mobileView = function() {
         if(!(isMobile.any)) {
+            {% unless page['has slideshow'] %}
+
             var stage = new swiffy.Stage(document.getElementById('swiffycontainer'), swiffyobject, {});
             stage.start();
 
@@ -43,6 +46,8 @@
             });
 
             $('#swiffycontainer').center();
+
+            {% endunless %}
 
             if(location.hash != "") {
                 $('.home-header').fadeTo("slow", 1);
@@ -91,6 +96,16 @@
             proximity: 20
         });
     }
+
+    {% if page['has slideshow'] %}
+
+    $('.homepage-slideshow').slick({
+      autoplay: true,
+      arrows: false
+    });
+
+    {% endif %}
+
 </script>
 {% endif %}
 <script src="/js/main.js"></script>
