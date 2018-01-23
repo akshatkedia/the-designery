@@ -27,17 +27,18 @@ defaults:
     type: work
   values:
     layout: work
-    service: 
+    service:
     assets:
-    - path: 
-      name: 
+    - path:
+      name:
 - scope:
     path: ''
     type: slides
   values:
-    image: 
-    work: 
-    is color light: 
+    image:
+    work:
+    is text color light:
+    is button color light:
 url: http://www.thedesignery.in
 permalink: pretty
 description: The Designery is a multidisciplinary design house that specializes in
