@@ -1,6 +1,7 @@
 ---
 title: Ré by JIVA
 date: 2016-05-02 14:00:00 +05:30
+published: false
 service: Branding & Identity
 assets:
 - path: "/uploads/6.jpg"
