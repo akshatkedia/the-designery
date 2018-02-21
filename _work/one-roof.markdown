@@ -17,6 +17,16 @@ assets:
   name: TGE
 - path: "/uploads/portfolio of branding3-01-1.jpg"
   name: portfolio of branding3-01-1
+- path: "/uploads/TGE1.jpg"
+  name: 
+- path: "/uploads/TGE2.jpg"
+  name: 
+- path: "/uploads/TGE3.jpg"
+  name: 
+- path: "/uploads/TGE4.jpg"
+  name: 
+- path: "/uploads/TGE-III.jpg"
+  name: 
 categories:
 - branding
 ---
