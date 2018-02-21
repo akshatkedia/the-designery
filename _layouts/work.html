@@ -83,10 +83,14 @@ layout: default
   <article>
     {{ page.content }} 
     {% for asset in page.assets %}
+    {% if asset["youtube video id"] %}
+    <div class='embed-container'><iframe src='https://www.youtube.com/embed/{{ asset["youtube video id"] }}' frameborder='0' allowfullscreen></iframe></div>
+    {% else %}
     <figure>
       <img src="{{ asset.path }}" alt="" />
       <figcaption></figcaption>
     </figure>
+    {% endif %}
     {% endfor %}
   </article>
 </section>
