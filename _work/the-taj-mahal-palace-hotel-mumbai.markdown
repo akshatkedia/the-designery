@@ -1,6 +1,7 @@
 ---
 title: Taj Mahal Palace Hotel, Mumbai
 date: 2016-04-26 11:50:00 +05:30
+published: false
 service: Branding & Identity
 assets:
 - path: "/uploads/taj01.jpg"
