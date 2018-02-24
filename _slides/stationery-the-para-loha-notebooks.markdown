@@ -1,7 +1,7 @@
 ---
 title: 'Stationery : The ‘Para-loha’ Notebooks'
 date: 2018-01-18 18:21:00 +05:30
-image: "/uploads/stationery.jpg"
+image: "/uploads/stationery-slide.jpg"
 work: Paraloha
 ---
 

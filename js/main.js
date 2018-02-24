@@ -118,7 +118,7 @@
                     },
                     error: function() {
                         $contactForm.find('.alert--loading').hide();
-                        $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+                        $contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
                     }
                 });
             });
