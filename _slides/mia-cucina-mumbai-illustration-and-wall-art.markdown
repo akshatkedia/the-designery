@@ -5,4 +5,4 @@ image: "/uploads/mia-cucina-slide.jpg"
 work: Bel-paese
 ---
 
-The ‘Bel-Pease’ Collection of nine italian art prints exclusively designed for Mia Cucina, Mumbai.
+The ‘Bel-Pease’ Collection of nine italian art prints<br>exclusively designed for Mia Cucina, Mumbai.

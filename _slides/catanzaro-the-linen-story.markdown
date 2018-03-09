@@ -6,4 +6,4 @@ work: 'Catanzaro : The Linen Story'
 is button color light: true
 ---
 
-A coffee table book designed for a premium linen brand.
+A coffee table book designed for<br>a premium linen brand.

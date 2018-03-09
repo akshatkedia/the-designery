@@ -5,4 +5,4 @@ image: "/uploads/lnc-slide.jpg"
 work: Love & Cheesecake
 ---
 
-A 360 degree brand revamp for one of Mumbai’s most sought after dessert brands.
+A 360 degree brand revamp for one of Mumbai’s<br>most sought after dessert brands.

@@ -7,4 +7,4 @@ is text color light: true
 is button color light: true
 ---
 
-A bespoke cushion collection with our signature textile print inspired by typography
+A bespoke cushion collection with our<br>signature textile print inspired by typography

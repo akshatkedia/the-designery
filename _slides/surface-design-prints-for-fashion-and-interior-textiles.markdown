@@ -5,4 +5,4 @@ image: "/uploads/surface-design-slide.jpg"
 work: Geom
 ---
 
-Our signature ‘Geom’ print printed on a beautiful pashmina lehenga
+Our signature ‘Geom’ print printed<br>on a beautiful pashmina lehenga

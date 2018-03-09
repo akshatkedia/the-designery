@@ -8,6 +8,20 @@ layout: default
     <article class="homepage-slide">
       <div class="content">
         <img src="{{slide.image}}" alt="{{slide.title}}">
+        <div class="info-container">
+          <div class="slide-text">
+            <h2>{{slide.title}}</h2>
+            {{slide.content}}
+          </div>
+          {% assign work = site.work | where:"title",slide.work %}
+          <a href="{{ work.first.url }}">
+            <img src="/images/view-project-button.png" alt="View Project">
+          </a>
+          <div class="info-container-arrows">
+            <button type="button" class="slick-prev"></button>
+            <button type="button" class="slick-next"></button>
+          </div>
+        </div>
       </div>
     </article>
   {% endfor %}

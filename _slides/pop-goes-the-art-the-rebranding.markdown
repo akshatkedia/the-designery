@@ -5,4 +5,4 @@ image: "/uploads/pgta-slide.jpg"
 work: Pop Goes the Art
 ---
 
-The Brand revamp for one Bombay’s coolest lifestyle brands.
+The Brand revamp for one Bombay’s<br>coolest lifestyle brands.

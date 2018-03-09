@@ -101,7 +101,9 @@
 
     $('.homepage-slideshow').slick({
       autoplay: true,
-      arrows: false
+      appendArrows: $('.info-container-arrows'),
+      prevArrow: $('.slick-prev'),
+      nextArrow: $('.slick-next')
     });
 
     {% endif %}

@@ -7,4 +7,4 @@ is text color light: true
 is button color light: true
 ---
 
-A typographical collection of lamps with our signature graphic prints.
+A typographical collection of lamps with<br>our signature graphic prints.
