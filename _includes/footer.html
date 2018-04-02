@@ -100,11 +100,12 @@
     {% if page['has slideshow'] %}
 
     $('.homepage-slideshow').slick({
-      autoplay: true,
-      appendArrows: $('.info-container-arrows'),
-      prevArrow: $('.slick-prev'),
-      nextArrow: $('.slick-next')
+      autoplay: true
     });
+
+    if ($('.homepage-slideshow').height() > $(window).height()) {
+      $('.slick-arrow').css('top', '50vh');
+    }
 
     {% endif %}
 

@@ -8,6 +8,10 @@
   position: absolute;
   bottom: 10vh;
   width: 100%;
+
+  @include media(max-width $screen-small orientation landscape) {
+    bottom: 5vh;
+  }
 }
 
 .slide-text {
@@ -16,17 +20,29 @@
   margin-right: 2rem;
   background-color: rgba(108, 117, 125, 0.5);
   vertical-align: middle;
+
+  @include media(max-width $screen-small orientation landscape) {
+    padding-right: 2rem;
+  }
 }
 
 .slide-text h2 {
   margin-bottom: 0;
   font-weight: normal;
   font-size: 1.25em;
+
+  @include media(max-width $screen-small orientation landscape) {
+    font-size: 1em;
+  }
 }
 
 .slide-text p {
   font-weight: lighter;
   margin-bottom: 0;
+
+  @include media(max-width $screen-small orientation landscape) {
+    font-size: 0.75em;
+  }
 }
 
 .info-container a {
@@ -36,32 +52,39 @@
 
 .info-container img {
   max-width: 120px;
+
+  @include media(max-width $screen-small orientation landscape) {
+    max-width: 100px;
+  }
 }
 
-.info-container-arrows {
-  margin-left: auto;
-  margin-right: 4rem;
-  background-color: rgba(108,117,125,0.5);
-  padding: 1rem;
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0;
+  background-color: transparent;
+  z-index: 10;
+  font-size: 0;
 
-  button {
+  &:hover {
     background-color: transparent;
-    padding: 0;
-    padding: 1rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 0;
+  }
 
-    &.slick-prev {
-      border-top: 1px solid white;
-      border-left: 1px solid white;
-      transform: rotateZ(-45deg);
-    }
+  &.slick-prev {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    left: 0;
+    transform: rotateZ(-45deg) translateY(-50%);
+    margin-left: 2rem;
+  }
 
-    &.slick-next {
-      border-top: 1px solid white;
-      border-right: 1px solid white;
-      transform: rotateZ(45deg);
-    }
+  &.slick-next {
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    right: 0;
+    transform: rotateZ(45deg) translateY(-50%);
+    margin-right: 2rem;
   }
 }

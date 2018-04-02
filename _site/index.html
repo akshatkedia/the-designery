@@ -99,10 +99,6 @@
           <a href="/work/love-and-cheesecake">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -120,10 +116,6 @@
           <a href="/work/catanzaro-the-linen-story">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -141,10 +133,6 @@
           <a href="/work/house-of-sohn">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -162,10 +150,6 @@
           <a href="/work/bel-paese">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -183,10 +167,6 @@
           <a href="/work/bodoni-vintage">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -204,10 +184,6 @@
           <a href="/work/light">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -225,10 +201,6 @@
           <a href="/work/pop-goes-the-art">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -246,10 +218,6 @@
           <a href="/work/paraloha">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -267,10 +235,6 @@
           <a href="/work/geom">
             <img src="/images/view-project-button.png" alt="View Project">
           </a>
-          <div class="info-container-arrows">
-            <button type="button" class="slick-prev"></button>
-            <button type="button" class="slick-next"></button>
-          </div>
         </div>
       </div>
     </article>
@@ -621,11 +585,12 @@ The Designery’s exhaustively detailed, boundary-breaking and metaphor-making a
     
 
     $('.homepage-slideshow').slick({
-      autoplay: true,
-      appendArrows: $('.info-container-arrows'),
-      prevArrow: $('.slick-prev'),
-      nextArrow: $('.slick-next')
+      autoplay: true
     });
+
+    if ($('.homepage-slideshow').height() > $(window).height()) {
+      $('.slick-arrow').css('top', '50vh');
+    }
 
     
 
