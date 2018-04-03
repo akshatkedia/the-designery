@@ -1,8 +1,8 @@
 ---
-title: 'Love & Cheesecake : The  Rebranding'
+title: 'Love & Cheesecake : The Rebranding'
 date: 2018-01-18 15:39:00 +05:30
-image: "/uploads/portfolio-of-L&C1.jpg"
+image: "/uploads/lnc-slide.jpg"
 work: Love & Cheesecake
 ---
 
-A 360 degree brand revamp for one of Mumbai’s most sought after dessert brands.
+A 360 degree brand revamp for one of Mumbai’s<br>most sought after dessert brands.

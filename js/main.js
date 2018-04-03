@@ -82,19 +82,18 @@
         };
 
         var homeServicesAnimation = function() {
-            $('.td-home-services-icons svg').mouseover(function() {
-                var $t = $(this).parent();
-                var serviceTitle = $t.children('h2').text();
-                var sectionBody = $t.closest('.td-home-section-body');
-                if($t.hasClass('active-item')) {
-                	return false;
+            $('.td-home-services-icon').mouseenter(function() {
+                var $serviceName = $(this);
+                if ($serviceName.hasClass('active-item')) {
+                  return false;
                 }
-                sectionBody.find('.td-home-services-icons div.active-item').removeClass('active-item');
-                sectionBody.find('.td-home-services-body div.active-item').fadeOut('normal');
-                $t.addClass('active-item');
-                sectionBody.find('.td-home-services-body div.active-item').promise().done(function() {
-                    $(this).removeClass('active-item');
-                    $('.td-home-services-body').find('[data-title = "' + serviceTitle + '"]').addClass('active-item').fadeIn('normal');
+                var $serviceDescription = $('.td-home-services-body');
+                var serviceTitle = $serviceName.data('title');
+
+                $('.td-home-services-icons-holder').find('.active-item').removeClass('active-item');
+                $serviceName.addClass('active-item');
+                $serviceDescription.find('.active-item').removeClass('active-item').fadeOut('normal', function() {
+                  $serviceDescription.find('[data-title = "' + serviceTitle + '"]').addClass('active-item').fadeIn('normal');
                 });
             });
         };
@@ -118,7 +117,7 @@
                     },
                     error: function() {
                         $contactForm.find('.alert--loading').hide();
-                        $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+                        $contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
                     }
                 });
             });
