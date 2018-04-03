@@ -5,4 +5,4 @@ image: "/uploads/tge-slide.jpg"
 work: Bel-paese
 ---
 
-A revolutionary exhibit exclusively focusing on today's urban and fashion-forward man.
+A revolutionary exhibit exclusively focusing on today's<br>urban and fashion-forward man.
